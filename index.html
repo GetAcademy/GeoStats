@@ -31,6 +31,7 @@
     <script>
         showNorway();
         showSweden();
+        showFinland();
 
         function showNorway() {
             document.getElementById('app').innerHTML += /*HTML*/`
@@ -55,6 +56,21 @@
                         <div>9 463 4234</div>
                         <div>Hovedstad:</div>
                         <div>Stockholm</div>
+                    </div>
+                </div>
+                `;
+        }
+
+        
+        function showFinland() {
+            document.getElementById('app').innerHTML += /*HTML*/`
+                <div class="place">
+                    <h2>Finland</h2>
+                    <div>
+                        <div>Befolkning:</div>
+                        <div>5 463 4234</div>
+                        <div>Hovedstad:</div>
+                        <div>Helsinki</div>
                     </div>
                 </div>
                 `;
